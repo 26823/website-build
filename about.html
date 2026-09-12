@@ -19,21 +19,20 @@
          </div>
          <div class="nav-menu" id="navMenu">
               <ul>
-                   <li><a href="index.html" class="link active">Home</a></li>
+                   <li><a href="index.html" class="link">Home</a></li>
                    <li><a href="blog.html" class="link">Blog</a></li>
                    <li><a href="services.html" class="link">Services</a></li>
-                   <li><a href="about.html" class="link">About</a></li>
+                   <li><a href="about.html" class="link active">About</a></li>
               </ul>
          </div>
          <div class="nav-button">
-              <button class="btn white-btn" id="loginBtn" onclick="login()">Sign In</button>
-              <button class="btn" id="registerBtn" onclick="register()">Sign Up</button>
+              <button class="btn white-btn" id="loginBtn" onclick="login()">
+Borrow the book.</button>
+              <button class="btn" id="registerBtn" onclick="register()">Login</button>
          </div> 
          <div class="nav-menu-btn">
               <i class="bx bx-menu" onclick="myMenuFunction()"></i>
          </div>
-    </div>
-</div>
     <script>
          function myMenuFunction(){
               var i = document.getElementById("navMenu");
@@ -58,7 +57,7 @@
               b.className = "btn";
               x.style.opacity = 1;
               y.style.opacity = 0;
-              window.location.href = "services.html";
+              window.location.href = "https://www.bibliotheek.nl/";
          }
 
          function register() {
